@@ -1,8 +1,16 @@
-import { defineConfig } from 'vite';
+import{defineConfig}from'vite';
 import react from '@vitejs/plugin-react';
+import svgr from '@svgr/rollup';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    svgr({
+      svgrOptions: {
+        // svgr options
+      },
+    }),
+  ],
   server: {
     host: 'localhost',
     port: 3000,

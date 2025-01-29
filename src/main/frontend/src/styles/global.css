@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Knewave';
+    src: url('/fonts/Knewave-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PaperlogyThin';
+    src: url('/fonts/Paperlogy-1Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PaperlogyExtraLight';
+    src: url('/fonts/Paperlogy-2ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PaperlogyLight';
+    src: url('/fonts/Paperlogy-3Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PaperlogyRegular';
+    src: url('/fonts/Paperlogy-4Regular.ttf'') format('truetype');
+}
+
+@font-face {
+    font-family: 'PaperlogyMedium';
+    src: url('/fonts/Paperlogy-5Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PaperlogySemiBold';
+    src: url('/fonts/Paperlogy-6SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PaperlogyBold';
+    src: url('/fonts/Paperlogy-7Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PaperlogyExtraBold';
+    src: url('/fonts/Paperlogy-8ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PaperlogyBlack';
+    src: url('/fonts/Paperlogy-9Black.ttf') format('truetype');
+}
