@@ -11,6 +11,7 @@ import Button from 'react-bootstrap/Button';
 import InputGroup from 'react-bootstrap/InputGroup';
 import { ReactComponent as UserSVG } from "../assets/images/user.svg";
 import { ReactComponent as LockSVG } from "../assets/images/lock.svg";
+import signUp from './pages/signUp';
 
 const Login: React.FC = () => {
     return (
@@ -45,8 +46,16 @@ const Login: React.FC = () => {
                                 </Form>
                             </div>
                             <div className="pOr">
-                                <Form>
-                                    <Form.Check type="checkbox" id="default-checkbox" label="로그인 유지하기" />
+                                <Form className="login-check">
+                                  {['checkbox'].map((type) => (
+                                    <div key={`default-${type}`} className="mb-3">
+                                      <Form.Check
+                                        type={type}
+                                        id={`default-${type}`}
+                                        label={`로그인 유지하기`}
+                                      />
+                                    </div>
+                                  ))}
                                 </Form>
                             </div>
                             <div className="pSns">OR</div>
@@ -56,7 +65,7 @@ const Login: React.FC = () => {
                                       <Row className="snsButtons">
                                         <Col className="login-col">
                                             <Button className="btn btn-custom">구글 로그인</Button>
-                                        </Col>
+                                              </Col>
                                         <Col className="login-col">
                                             <Button className="btn btn-custom">카카오 로그인</Button>
                                         </Col>

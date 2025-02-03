@@ -1,0 +1,76 @@
+.sNum {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.circleNum {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 30px;
+  color: black;
+  background-color: #EEEEEE;
+}
+
+.completed {
+  background-color: #0077FF;
+}
+
+.sText{
+    color: black;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'PaperlogyLight';
+    font-size: 1.4rem;
+}
+
+.AllButton, AllButton:hover {
+    width: 100%;
+    border: 1px solid #EEEEEE !important;
+    font-family: 'PaperlogySemiBold';
+    font-size: 1.5rem;
+    margin: 8rem 0;
+}
+
+.AllButton:active {
+    background-color: #EEEEEE !important;
+    border: none;
+}
+
+.sFirst, .sSecond, .sThird{
+    font-family: 'PaperlogySemiBold';
+    font-size: 1.3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.terms-check .form-check-label {
+    color: black !important;
+    font-size: 1.5rem;
+    display: flex;
+    text-align: center;
+    height: 100%;
+}
+.terms-check .form-check {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.sNext{
+    margin: 10rem 0;
+}
+
+.sNextButton{
+    width: 100%;
+    font-family: 'PaperlogySemiBold';
+    font-size: 1.5rem;
+}
