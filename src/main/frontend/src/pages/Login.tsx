@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button';
 import InputGroup from 'react-bootstrap/InputGroup';
 import { ReactComponent as UserSVG } from "../assets/images/user.svg";
 import { ReactComponent as LockSVG } from "../assets/images/lock.svg";
-import signUp from './pages/signUp';
+import signUp from './pages/SignUp';
 
 const Login: React.FC = () => {
     return (

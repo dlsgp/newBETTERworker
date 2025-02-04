@@ -25,7 +25,7 @@
     align-items: center;
     margin-top: 10px;
     font-family: 'PaperlogyLight';
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .AllButton, AllButton:hover {
@@ -74,3 +74,29 @@
     font-family: 'PaperlogySemiBold';
     font-size: 1.5rem;
 }
+
+
+
+.sId{
+    display: flex;
+    position: relative;
+}
+
+.sId Input{
+    width: 100%;
+}
+
+.sId Button{
+    position: absolute;
+    right: 2rem;
+    bottom: 0.5rem;
+}
+
+.sInput{
+    font-family:'PaperlogyMedium';
+    font-size: 1.5rem;
+    display: flex;
+    align-items:center;
+
+}
+

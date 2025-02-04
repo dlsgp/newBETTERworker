@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import '../styles/signUp.css';
 import { ReactComponent as ShieldSvg } from "../assets/images/shield.svg";
 import { ReactComponent as RightSvg } from "../assets/images/chevron-right.svg";
+import signup2 from './pages/signUp2';
 
 
 const SignUp: React.FC = () => {
@@ -35,7 +36,7 @@ const SignUp: React.FC = () => {
                                     <Col xs={6} md={2}>
                                       <div className="circleNum center">2</div>
                                       <Stack>
-                                        <div className="sText">약관동의</div>
+                                        <div className="sText">정보입력</div>
                                       </Stack>
                                     </Col>
                                     <Col xs={6} md={2}>
@@ -156,7 +157,11 @@ const SignUp: React.FC = () => {
                             </Modal>
 
                             <div className="sNext">
-                                <Button href="/signup2" size="lg" className="sNextButton">다음</Button>
+                                <Button size="lg" className="sNextButton">
+                                    <Link to="/signup2" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                        다음
+                                    </Link>
+                                </Button>
                             </div>
                         </Stack>
                     </Col>
