@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import { Container, Row, Col, Form, Stack, Button, InputButton } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { ReactComponent as EditSvg } from "../assets/images/edit.svg";
 import '../styles/signUp.css';
@@ -18,6 +17,13 @@ import signup3 from './pages/signUp3';
 
 
 const SignUp2: React.FC = () => {
+
+    const userType = [
+            {value : '개인', label: '개인'},
+            {value : '관리자', label: '관리자'},
+    ];
+
+
     const [showPassword, setShowPassword] = React.useState(false);
     const [showPassword2, setShowPassword2] = React.useState(false);
 
@@ -75,6 +81,25 @@ const SignUp2: React.FC = () => {
                                   </Row>
                                 </Container>
                             </div>
+
+                            <Row className="align-items-center" style={{marginBottom: '4%'}}>
+                                <Col sm={3} className="sInput">가입자 유형</Col>
+                                <Col sm={9}>
+                                    <TextField
+                                        fullWidth
+                                        select
+                                        defaultValue="개인"
+                                        sx={{ flex: 1 }}
+                                        size="small"
+                                    >
+                                       {userType.map((option) => (
+                                           <MenuItem key={option.value} value={option.value}>
+                                               {option.label}
+                                           </MenuItem>
+                                       ))}
+                                    </TextField>
+                                </Col>
+                            </Row>
 
                             <Row className="align-items-center" style={{ marginBottom: '4%' }}>
                                 <Col sm={3} className="sInput">아이디</Col>
@@ -160,6 +185,15 @@ const SignUp2: React.FC = () => {
                             </Row>
 
                             <Row className="align-items-center" style={{ marginBottom: '4%' }}>
+                                <Col sm={3} className="sInput">대표자 성명</Col>
+                                <Col sm={9}>
+                                    <FormControl fullWidth>
+                                        <Input />
+                                    </FormControl>
+                                </Col>
+                            </Row>
+
+                            <Row className="align-items-center" style={{ marginBottom: '4%' }}>
                                 <Col sm={3} className="sInput">주민번호</Col>
                                     <Col sm={9}>
                                         <div style={{ display: "flex", alignItems: "center", gap: "8px", width: "100%" }}>
@@ -173,6 +207,28 @@ const SignUp2: React.FC = () => {
                                                  autoComplete="current-password"
                                                  variant="standard"/>
                                             </FormControl>
+
+                                        </div>
+                                    </Col>
+                            </Row>
+
+                            <Row className="align-items-center" style={{ marginBottom: '4%' }}>
+                                <Col sm={3} className="sInput">사업자번호</Col>
+                                    <Col sm={9}>
+                                        <div style={{ display: "flex", alignItems: "center", gap: "8px", width: "100%" }}>
+
+                                            <FormControl sx={{flex:1}}>
+                                                <Input />
+                                            </FormControl>
+                                            <div></div>
+                                            <FormControl sx={{flex:1}}>
+                                                <Input />
+                                            </FormControl>
+                                            <div></div>
+                                            <FormControl sx={{flex:1}}>
+                                                <Input />
+                                            </FormControl>
+                                            <div></div>
 
                                         </div>
                                     </Col>
