@@ -84,7 +84,7 @@ const Login: React.FC = () => {
                                             <Link to="/signup"> 회원가입하기</Link>
                                         </Col>
                                         <Col className="right">
-                                            <Link to="/lose"> 아이디 / 비밀번호를 잊으셨나요?</Link>
+                                            <Link to="/find"> 아이디 / 비밀번호를 잊으셨나요?</Link>
                                         </Col>
                                     </Row>
                                 </Container>

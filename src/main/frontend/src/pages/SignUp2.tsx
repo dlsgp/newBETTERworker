@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import { ReactComponent as EditSvg } from "../assets/images/edit.svg";
+import { Container, Row, Col, Stack, Button, Form } from 'react-bootstrap';
 import '../styles/signUp.css';
 import AddressSearch from "../components/AddressSearch.tsx";
 import Input from '@mui/material/Input';

@@ -1,0 +1,58 @@
+.mainF{
+    display: flex;
+    flex-grow:1;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.idTitle{
+    font-family: 'PaperlogyMedium' !important;
+    font-size: 1.5rem !important;
+}
+
+.ButtonID{
+    background-color: #0077FF;
+    font-family: 'PaperlogySemiBold';
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    height: 3.5rem;
+}
+
+.emailTypo{
+    font-family: 'PaperlogyRegular' !important;
+    font-size: 1.1rem !important;
+}
+
+.emailCom{
+    font-family: 'PaperlogySemiBold' !important;
+    font-size: 1.5rem !important;
+}
+
+.pwStack{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.ButtonCode{
+    font-family: 'PaperlogySemiBold';
+    font-size: 1.3rem;
+    height: 3rem;
+    border: none !important;
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ideButton{
+    font-family: 'PaperlogySemiBold';
+    font-size: 1.5rem;
+    background-color: #0077FF !important;
+
+}
