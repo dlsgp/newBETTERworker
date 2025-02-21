@@ -9,6 +9,7 @@ import FindPW from './pages/FindPW';
 import FindPW2 from './pages/FindPW2';
 import FindPW3 from './pages/FindPW3';
 import FindPW4 from './pages/FindPW4';
+import QR from './pages/QR';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <Route path="/findPW2" element={<FindPW2 />} />
         <Route path="/findPW3" element={<FindPW3 />} />
         <Route path="/findPW4" element={<FindPW4 />} />
+        <Route path="/qr" element={<QR />} />
+
       </Routes>
     </Router>
   );

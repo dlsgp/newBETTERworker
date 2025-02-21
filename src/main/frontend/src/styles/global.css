@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: 'PaperlogyRegular';
-    src: url('/fonts/Paperlogy-4Regular.ttf'') format('truetype');
+    src: url('/fonts/Paperlogy-4Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -46,4 +46,19 @@
 @font-face {
     font-family: 'PaperlogyBlack';
     src: url('/fonts/Paperlogy-9Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SBBold';
+    src: url('/fonts/SBAggroB.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SBMedium';
+    src: url('/fonts/SBAggroM.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SBLight';
+    src: url('/fonts/SBAggroL.ttf') format('truetype');
 }

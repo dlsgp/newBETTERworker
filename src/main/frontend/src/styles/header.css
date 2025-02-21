@@ -1,0 +1,59 @@
+.header-custom{
+    background-color: #fff;
+    /*opacity: 0.5;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-custom .navbar-brand{
+    color: #000 !important;
+    font-family: 'Knewave';
+    font-size: 1rem;
+    text-align: center;
+    margin: auto;
+}
+
+.header-custom .navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-custom .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 4rem;
+    white-space: nowrap; /*줄바꿈 방지*/
+}
+
+.header-custom .nav-link{
+    display: inline-block;
+    color: #000 !important;
+    font-family: 'SBAggroM';
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.header-custom .nav-link:hover{
+    color: #0077FF !important;
+}
+
+.header-custom .navbar-toggler {
+    border-color: white !important;
+}
+
+.header-custom .icon-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    flex-grow: 0;
+
+}
+
